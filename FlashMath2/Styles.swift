@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+extension View {
+    func backgroundGradient() -> some View {
+        self
+            .background(LinearGradient(colors: [.indigo, .black], startPoint: .top, endPoint: .bottom))
+    }
+}
+
 struct QuestionButton: ButtonStyle {
     var color: Color
 
@@ -20,5 +27,11 @@ struct QuestionButton: ButtonStyle {
             .clipShape(.capsule)
             .foregroundStyle(configuration.isPressed ? .blue : .white)
             .shadow(radius: configuration.isPressed ? 0 : 10)
+    }
+}
+
+extension ButtonStyle where Self == QuestionButton {
+    static func question(color: Color) -> QuestionButton {
+        QuestionButton(color: color)
     }
 }
