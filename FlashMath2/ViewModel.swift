@@ -12,6 +12,7 @@ import Foundation
 class ViewModel {
     var questionNumber = 0
     var question: HowManyMultiplesQuestion!
+    var timeAllowed = 10.0
 
     /// Make the view model quietly bridge all the properties from our question type to avoid cluttering our code.
     subscript<Value>(dynamicMember keyPath: KeyPath<HowManyMultiplesQuestion, Value>) -> Value {
