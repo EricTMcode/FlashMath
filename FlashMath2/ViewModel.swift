@@ -13,6 +13,7 @@ class ViewModel {
     var questionNumber = 0
     var question: HowManyMultiplesQuestion!
 
+    /// Make the view model quietly bridge all the properties from our question type to avoid cluttering our code.
     subscript<Value>(dynamicMember keyPath: KeyPath<HowManyMultiplesQuestion, Value>) -> Value {
         question[keyPath: keyPath]
     }
@@ -32,5 +33,9 @@ class ViewModel {
         } else {
             // game over
         }
+    }
+
+    func end() {
+        
     }
 }
