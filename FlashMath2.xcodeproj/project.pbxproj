@@ -13,6 +13,7 @@
 		0709AB002C5CF71000690033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709AAFF2C5CF71000690033 /* Preview Assets.xcassets */; };
 		0709AB072C5CF9E400690033 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB062C5CF9E400690033 /* HowManyMultiplesQuestion.swift */; };
 		0709AB0A2C5CFB2E00690033 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB092C5CFB2E00690033 /* QuestionView.swift */; };
+		0709AB0C2C5CFCF800690033 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB0B2C5CFCF800690033 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0709AAFF2C5CF71000690033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0709AB062C5CF9E400690033 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
 		0709AB092C5CFB2E00690033 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		0709AB0B2C5CFCF800690033 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				0709AAF82C5CF70F00690033 /* FlashMath2App.swift */,
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
+				0709AB0B2C5CFCF800690033 /* ViewModel.swift */,
 				0709AB092C5CFB2E00690033 /* QuestionView.swift */,
 				0709AB082C5CF9E800690033 /* Model */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0709AB0C2C5CFCF800690033 /* ViewModel.swift in Sources */,
 				0709AB0A2C5CFB2E00690033 /* QuestionView.swift in Sources */,
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
 				0709AB072C5CF9E400690033 /* HowManyMultiplesQuestion.swift in Sources */,
