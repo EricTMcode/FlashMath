@@ -15,6 +15,7 @@
 		0709AB0A2C5CFB2E00690033 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB092C5CFB2E00690033 /* QuestionView.swift */; };
 		0709AB0C2C5CFCF800690033 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB0B2C5CFCF800690033 /* ViewModel.swift */; };
 		0709AB0E2C5D00AE00690033 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB0D2C5D00AE00690033 /* PlayingView.swift */; };
+		0709AB102C5D05D400690033 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB0F2C5D05D400690033 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0709AB092C5CFB2E00690033 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		0709AB0B2C5CFCF800690033 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		0709AB0D2C5D00AE00690033 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		0709AB0F2C5D05D400690033 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0709AB0B2C5CFCF800690033 /* ViewModel.swift */,
 				0709AB0D2C5D00AE00690033 /* PlayingView.swift */,
 				0709AB092C5CFB2E00690033 /* QuestionView.swift */,
+				0709AB0F2C5D05D400690033 /* Styles.swift */,
 				0709AB082C5CF9E800690033 /* Model */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
 				0709AAFE2C5CF71000690033 /* Preview Content */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0709AB0C2C5CFCF800690033 /* ViewModel.swift in Sources */,
+				0709AB102C5D05D400690033 /* Styles.swift in Sources */,
 				0709AB0A2C5CFB2E00690033 /* QuestionView.swift in Sources */,
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
 				0709AB0E2C5D00AE00690033 /* PlayingView.swift in Sources */,
