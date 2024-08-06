@@ -21,6 +21,7 @@
 		0709AB162C62ADF200690033 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB152C62ADF200690033 /* MultipleQuestion.swift */; };
 		0709AB1A2C62AF8C00690033 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB192C62AF8C00690033 /* Question.swift */; };
 		0709AB1C2C62B10D00690033 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB1B2C62B10D00690033 /* HighestLowestQuestion.swift */; };
+		0709AB1E2C62B27500690033 /* OperationQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB1D2C62B27500690033 /* OperationQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		0709AB152C62ADF200690033 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
 		0709AB192C62AF8C00690033 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0709AB1B2C62B10D00690033 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
+		0709AB1D2C62B27500690033 /* OperationQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
 				0709AB0B2C5CFCF800690033 /* ViewModel.swift */,
 				0709AB1B2C62B10D00690033 /* HighestLowestQuestion.swift */,
+				0709AB1D2C62B27500690033 /* OperationQuestion.swift */,
 				0709AB0D2C5D00AE00690033 /* PlayingView.swift */,
 				0709AB092C5CFB2E00690033 /* QuestionView.swift */,
 				0709AB112C5D0F9300690033 /* MenuView.swift */,
@@ -185,6 +188,7 @@
 				0709AB162C62ADF200690033 /* MultipleQuestion.swift in Sources */,
 				0709AB1C2C62B10D00690033 /* HighestLowestQuestion.swift in Sources */,
 				0709AB142C5D100C00690033 /* GameOverView.swift in Sources */,
+				0709AB1E2C62B27500690033 /* OperationQuestion.swift in Sources */,
 				0709AB1A2C62AF8C00690033 /* Question.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
