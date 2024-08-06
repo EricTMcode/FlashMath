@@ -18,6 +18,7 @@
 		0709AB102C5D05D400690033 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB0F2C5D05D400690033 /* Styles.swift */; };
 		0709AB122C5D0F9300690033 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB112C5D0F9300690033 /* MenuView.swift */; };
 		0709AB142C5D100C00690033 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB132C5D100C00690033 /* GameOverView.swift */; };
+		0709AB162C62ADF200690033 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB152C62ADF200690033 /* MultipleQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0709AB0F2C5D05D400690033 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		0709AB112C5D0F9300690033 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0709AB132C5D100C00690033 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		0709AB152C62ADF200690033 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				0709AB0D2C5D00AE00690033 /* PlayingView.swift */,
 				0709AB092C5CFB2E00690033 /* QuestionView.swift */,
 				0709AB112C5D0F9300690033 /* MenuView.swift */,
+				0709AB152C62ADF200690033 /* MultipleQuestion.swift */,
 				0709AB132C5D100C00690033 /* GameOverView.swift */,
 				0709AB0F2C5D05D400690033 /* Styles.swift */,
 				0709AB082C5CF9E800690033 /* Model */,
@@ -173,6 +176,7 @@
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
 				0709AB0E2C5D00AE00690033 /* PlayingView.swift in Sources */,
 				0709AB072C5CF9E400690033 /* HowManyMultiplesQuestion.swift in Sources */,
+				0709AB162C62ADF200690033 /* MultipleQuestion.swift in Sources */,
 				0709AB142C5D100C00690033 /* GameOverView.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
