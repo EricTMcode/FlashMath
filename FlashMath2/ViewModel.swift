@@ -13,14 +13,19 @@ class ViewModel {
     enum PlayState {
         case menu, playing, gameOver
     }
-
+    
     private(set) var playState = PlayState.menu
     var questionNumber = 0
-    var question: HowManyMultiplesQuestion!
+    var question: (any Question)!
     var timeAllowed = 10.0
+    
+    let allQuestions: [any Question.Type] = [
+        MultipleQuestion.self,
+        HowManyMultiplesQuestion.self
+    ]
 
     /// Make the view model quietly bridge all the properties from our question type to avoid cluttering our code.
-    subscript<Value>(dynamicMember keyPath: KeyPath<HowManyMultiplesQuestion, Value>) -> Value {
+    subscript<Value>(dynamicMember keyPath: KeyPath<Question, Value>) -> Value {
         question[keyPath: keyPath]
     }
 
@@ -29,7 +34,7 @@ class ViewModel {
     }
 
     func nextQuestion() {
-        question = HowManyMultiplesQuestion()
+        question = allQuestions.randomElement()!.init()
         questionNumber += 1
         timeAllowed *= 0.99
     }
