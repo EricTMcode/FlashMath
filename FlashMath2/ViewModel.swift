@@ -20,8 +20,10 @@ class ViewModel {
     var timeAllowed = 10.0
     
     let allQuestions: [any Question.Type] = [
-        MultipleQuestion.self,
-        HowManyMultiplesQuestion.self
+//        MultipleQuestion.self,
+//        HowManyMultiplesQuestion.self,
+//        HighestLowestQuestion.self,
+        OperationQuestion.self
     ]
 
     /// Make the view model quietly bridge all the properties from our question type to avoid cluttering our code.

@@ -50,7 +50,7 @@ struct OperationQuestion: Question {
             firstNumber = Int.random(in: 2...12)
             secondNumber = firstNumber
             correctAnswer = firstNumber * firstNumber
-            questionText = "\(firstNumber)"
+            questionText = "\(firstNumber)²?"
             operation = (*)
 
         default:
