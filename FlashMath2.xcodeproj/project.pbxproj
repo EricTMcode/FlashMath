@@ -14,6 +14,7 @@
 		0709AB202C632C4000690033 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB1F2C632C4000690033 /* HowManyMultiplesQuestion.swift */; };
 		0709AB222C632E3800690033 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB212C632E3800690033 /* QuestionView.swift */; };
 		0709AB242C63305300690033 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB232C63305300690033 /* ViewModel.swift */; };
+		0709AB262C6333D800690033 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB252C6333D800690033 /* PlayingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0709AB1F2C632C4000690033 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
 		0709AB212C632E3800690033 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		0709AB232C63305300690033 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0709AB252C6333D800690033 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
 				0709AB1F2C632C4000690033 /* HowManyMultiplesQuestion.swift */,
 				0709AB232C63305300690033 /* ViewModel.swift */,
+				0709AB252C6333D800690033 /* PlayingView.swift */,
 				0709AB212C632E3800690033 /* QuestionView.swift */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
 				0709AAFE2C5CF71000690033 /* Preview Content */,
@@ -149,6 +152,7 @@
 				0709AB242C63305300690033 /* ViewModel.swift in Sources */,
 				0709AB222C632E3800690033 /* QuestionView.swift in Sources */,
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
+				0709AB262C6333D800690033 /* PlayingView.swift in Sources */,
 				0709AB202C632C4000690033 /* HowManyMultiplesQuestion.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);

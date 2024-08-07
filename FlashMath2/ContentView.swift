@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
-        QuestionView()
+        PlayingView()
     }
 }
 
 #Preview {
     ContentView()
+        .preferredColorScheme(.dark)
+        .environment(ViewModel())
 }
