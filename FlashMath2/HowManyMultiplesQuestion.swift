@@ -2,12 +2,12 @@
 //  HowManyMultiplesQuestion.swift
 //  FlashMath2
 //
-//  Created by Eric on 02/08/2024.
+//  Created by Eric on 07/08/2024.
 //
 
 import Foundation
 
-struct HowManyMultiplesQuestion: Question {
+struct HowManyMultiplesQuestion {
     var questionText: String
     var correctAnswer: Int
     var allAnswers: [Int]
@@ -17,8 +17,8 @@ struct HowManyMultiplesQuestion: Question {
         correctAnswer = numbers.removeFirst()
 
         let multiple = Int.random(in: 2...12)
-        let adjustement = Int.random(in: 0...multiple - 1)
-        let targetNumber = correctAnswer * multiple + adjustement
+        let adjustment = Int.random(in: 0...multiple - 1)
+        let targetNumber = correctAnswer * multiple + adjustment
 
         questionText = "How many \(multiple)s in \(targetNumber)?"
         allAnswers = Array(numbers.prefix(4))
