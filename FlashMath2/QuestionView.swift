@@ -9,6 +9,8 @@ import SwiftUI
 
 struct QuestionView: View {
     @Environment(ViewModel.self) var viewModel
+    
+    let colors: [Color] = [.purple, .blue, .green, .pink, .orange].shuffled()
 
     var body: some View {
         VStack {
@@ -28,6 +30,7 @@ struct QuestionView: View {
                 } label: {
                     Text(viewModel.allAnswers[index].formatted())
                 }
+                .buttonStyle(.question(color: colors[index]))
             }
 
             Spacer()

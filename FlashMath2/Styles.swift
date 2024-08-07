@@ -28,3 +28,10 @@ extension ButtonStyle where Self == QuestionButton {
         QuestionButton(color: color)
     }
 }
+
+extension View {
+    func backgroundGradient() -> some View {
+        self
+            .background(LinearGradient(colors: [.indigo, .black], startPoint: .top, endPoint: .bottom))
+    }
+}
