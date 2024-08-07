@@ -11,7 +11,7 @@ import SwiftUI
 struct FlashMath2App: App {
     var body: some Scene {
         WindowGroup {
-            QuestionView()
+            ContentView()
         }
     }
 }

@@ -14,11 +14,17 @@ struct HowManyMultiplesQuestion {
 
     init() {
         var numbers = (2...12).shuffled()
+        print(numbers)
         correctAnswer = numbers.removeFirst()
+        print(numbers)
+        print(correctAnswer)
 
         let multiple = Int.random(in: 2...12)
+        print(multiple)
         let adjustment = Int.random(in: 0...multiple - 1)
+        print(adjustment)
         let targetNumber = correctAnswer * multiple + adjustment
+        print(targetNumber)
 
         questionText = "How many \(multiple)s in \(targetNumber)?"
         allAnswers = Array(numbers.prefix(4))
