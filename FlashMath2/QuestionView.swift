@@ -37,6 +37,7 @@ struct QuestionView: View {
             Spacer()
         }
         .padding(.horizontal)
+        .transition(.push(from: .trailing))
     }
     
     func select(_ number: Int) {
