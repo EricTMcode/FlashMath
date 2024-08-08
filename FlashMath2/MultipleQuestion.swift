@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct MultipleQuestion {
+struct MultipleQuestion: Question {
     var questionText: String
     var correctAnswer: Int
-    var allAswers: [Int]
+    var allAnswers: [Int]
 
     init() {
         let allMultiples = (2...12).shuffled()
@@ -19,7 +19,7 @@ struct MultipleQuestion {
         correctAnswer = Int.random(in: 1...12) * multiple
         questionText = "Multiple of \(multiple)?"
 
-        allAswers = (0...3).map { index in
+        allAnswers = (0...3).map { index in
             if multiple == 2 {
                 allMultiples[index] * multiple + 1
             } else {
@@ -27,7 +27,7 @@ struct MultipleQuestion {
             }
         }
 
-        allAswers.append(correctAnswer)
-        allAswers.shuffle()
+        allAnswers.append(correctAnswer)
+        allAnswers.shuffle()
     }
 }
