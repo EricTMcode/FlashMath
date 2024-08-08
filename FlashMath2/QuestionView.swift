@@ -43,8 +43,28 @@ struct QuestionView: View {
 
             Spacer()
             Spacer()
+
+            ZStack {
+                Capsule()
+                    .fill(.white.gradient)
+                    .frame(height: 50)
+                    .containerRelativeFrame(.horizontal) { value, axis in
+                        value * timeRemaining / viewModel.timeAllowed
+                    }
+
+                Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
+                    .font(.largeTitle)
+                    .monospacedDigit()
+            }
         }
         .padding(.horizontal)
+        .onReceive(timer) { time in
+            timeUsed += 1 / 30
+
+            if timeUsed >= viewModel.timeAllowed {
+                // Game Over
+            }
+        }
         .transition(.push(from: .trailing))
     }
     
@@ -60,4 +80,5 @@ struct QuestionView: View {
 #Preview {
     QuestionView()
         .environment(ViewModel())
+        .preferredColorScheme(.dark)
 }
