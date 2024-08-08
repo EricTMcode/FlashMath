@@ -55,6 +55,7 @@ struct QuestionView: View {
                 Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
                     .font(.largeTitle)
                     .monospacedDigit()
+                    .blendMode(.difference)
             }
         }
         .padding(.horizontal)
