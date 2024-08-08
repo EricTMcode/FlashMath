@@ -63,7 +63,7 @@ struct QuestionView: View {
             timeUsed += 1 / 30
 
             if timeUsed >= viewModel.timeAllowed {
-                // Game Over
+                viewModel.gameOver()
             }
         }
         .transition(.push(from: .trailing))
