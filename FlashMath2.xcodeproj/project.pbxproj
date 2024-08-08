@@ -18,6 +18,7 @@
 		0709AB282C6334C500690033 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB272C6334C500690033 /* Styles.swift */; };
 		0709AB2A2C64845E00690033 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB292C64845E00690033 /* MenuView.swift */; };
 		0709AB2C2C64851800690033 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB2B2C64851800690033 /* GameOverView.swift */; };
+		0709AB2E2C6488E000690033 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB2D2C6488E000690033 /* MultipleQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0709AB272C6334C500690033 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		0709AB292C64845E00690033 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0709AB2B2C64851800690033 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		0709AB2D2C6488E000690033 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				0709AB1F2C632C4000690033 /* HowManyMultiplesQuestion.swift */,
 				0709AB232C63305300690033 /* ViewModel.swift */,
 				0709AB292C64845E00690033 /* MenuView.swift */,
+				0709AB2D2C6488E000690033 /* MultipleQuestion.swift */,
 				0709AB2B2C64851800690033 /* GameOverView.swift */,
 				0709AB252C6333D800690033 /* PlayingView.swift */,
 				0709AB212C632E3800690033 /* QuestionView.swift */,
@@ -165,6 +168,7 @@
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
 				0709AB262C6333D800690033 /* PlayingView.swift in Sources */,
 				0709AB202C632C4000690033 /* HowManyMultiplesQuestion.swift in Sources */,
+				0709AB2E2C6488E000690033 /* MultipleQuestion.swift in Sources */,
 				0709AB2C2C64851800690033 /* GameOverView.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
