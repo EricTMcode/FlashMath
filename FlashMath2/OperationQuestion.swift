@@ -60,6 +60,8 @@ struct OperationQuestion:Question {
         allAnswers = (0...3).map { index in
             operation(firstNumber, secondNumber) + wrongVariations[index]
         }
+        print(correctAnswer)
+        print(allAnswers)
 
         allAnswers.append(correctAnswer)
         allAnswers.shuffle()

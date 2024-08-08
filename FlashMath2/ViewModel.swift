@@ -20,8 +20,10 @@ class ViewModel {
     var timeAllowed = 10.0
 
     let allQuestions: [any Question.Type] = [
-        MultipleQuestion.self,
-        HowManyMultiplesQuestion.self
+//        MultipleQuestion.self,
+//        HowManyMultiplesQuestion.self,
+//        HighestLowestQuestion.self,
+        OperationQuestion.self
     ]
 
     subscript<Value>(dynamicMember keyPath: KeyPath<Question, Value>) -> Value {
