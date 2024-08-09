@@ -24,6 +24,7 @@ struct HowManyMultiplesQuestion {
 
         questionText = "How many \(multiple)s in \(targetNumber)?"
         allAnswers = Array(numbers.prefix(4))
+        print(allAnswers)
         allAnswers.append(correctAnswer)
         allAnswers.shuffle()
     }
