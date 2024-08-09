@@ -10,6 +10,11 @@ import Foundation
 @Observable
 @dynamicMemberLookup
 class ViewModel {
+    enum PlayState {
+        case menu, playing, gameOver
+    }
+
+    private(set) var playState = PlayState.menu
     var questionNumber = 0
     var question: HowManyMultiplesQuestion!
     var timeAllowed = 10.0
@@ -25,6 +30,7 @@ class ViewModel {
     func nextQuestion() {
         question = HowManyMultiplesQuestion()
         questionNumber += 1
+        timeAllowed *= 0.99
     }
 
     func check(answer: Int) {
@@ -35,7 +41,19 @@ class ViewModel {
         }
     }
 
+    func gameOver() {
+        playState = .gameOver
+        UserDefaults.standard.set(questionNumber - 1, forKey: "LastScore")
+    }
+
+    func start() {
+        playState = .playing
+        timeAllowed = 10
+        questionNumber = 0
+        nextQuestion()
+    }
+
     func end() {
-        
+        playState = .menu
     }
 }

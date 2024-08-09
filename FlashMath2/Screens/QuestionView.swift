@@ -48,7 +48,7 @@ struct QuestionView: View {
                 Capsule()
                     .fill(.white.gradient)
                     .frame(height: 50)
-                    .containerRelativeFrame(.horizontal) { value, axis in
+                    .containerRelativeFrame(.horizontal) { value, _ in
                         value * timeRemaining / viewModel.timeAllowed
                     }
 
@@ -59,7 +59,7 @@ struct QuestionView: View {
             }
         }
         .padding(.horizontal)
-        .onReceive(timer) { time in
+        .onReceive(timer) { _ in
             timeUsed += 1 / 30
 
             if timeUsed >= viewModel.timeAllowed {
