@@ -8,21 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(ViewModel.self) var viewModel
-
     var body: some View {
-        switch viewModel.playState {
-        case .menu:
-            MenuView()
-        case .playing:
-            PlayingView()
-        case .gameOver:
-            GameOverView()
+        Text("Hello, World!")
         }
     }
 }
 
 #Preview {
     ContentView()
-        .environment(ViewModel())
 }
