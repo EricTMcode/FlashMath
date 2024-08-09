@@ -15,6 +15,7 @@ struct FlashMath2App: App {
         WindowGroup {
             ContentView()
                 .environment(viewModel)
+                .preferredColorScheme(.dark)
         }
     }
 }
