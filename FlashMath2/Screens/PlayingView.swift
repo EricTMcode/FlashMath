@@ -22,6 +22,7 @@ struct PlayingView: View {
             .padding(.horizontal)
 
             QuestionView()
+                .id(viewModel.questionNumber)
         }
         .backgroundGradient()
     }
