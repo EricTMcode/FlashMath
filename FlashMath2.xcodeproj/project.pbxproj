@@ -19,6 +19,7 @@
 		0709AB442C65DD2800690033 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB432C65DD2800690033 /* MenuView.swift */; };
 		0709AB462C65DD9E00690033 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB452C65DD9E00690033 /* GameOverView.swift */; };
 		0709AB482C6728EA00690033 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB472C6728EA00690033 /* MultipleQuestion.swift */; };
+		0709AB4A2C6729FF00690033 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709AB492C6729FF00690033 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0709AB432C65DD2800690033 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0709AB452C65DD9E00690033 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		0709AB472C6728EA00690033 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
+		0709AB492C6729FF00690033 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		0709AB3A2C65D22500690033 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0709AB492C6729FF00690033 /* Question.swift */,
 				0709AB352C65CFD700690033 /* HowManyMultiplesQuestion.swift */,
 				0709AB472C6728EA00690033 /* MultipleQuestion.swift */,
 			);
@@ -202,6 +205,7 @@
 				0709AB362C65CFD700690033 /* HowManyMultiplesQuestion.swift in Sources */,
 				0709AB482C6728EA00690033 /* MultipleQuestion.swift in Sources */,
 				0709AB462C65DD9E00690033 /* GameOverView.swift in Sources */,
+				0709AB4A2C6729FF00690033 /* Question.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
