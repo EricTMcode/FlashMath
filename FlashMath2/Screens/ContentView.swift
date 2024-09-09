@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
-        QuestionView()
+        PlayingView()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ViewModel())
 }
