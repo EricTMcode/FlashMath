@@ -23,6 +23,7 @@ struct PlayingView: View {
 
             QuestionView()
         }
+        .backgroundGradient()
     }
 }
 
