@@ -14,6 +14,7 @@
 		070F37322C8EEE9F00598929 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37312C8EEE9F00598929 /* HowManyMultiplesQuestion.swift */; };
 		070F37342C8EF0BA00598929 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37332C8EF0BA00598929 /* QuestionView.swift */; };
 		070F37362C8EF1DB00598929 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37352C8EF1DB00598929 /* ViewModel.swift */; };
+		070F37382C8EF55C00598929 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37372C8EF55C00598929 /* PlayingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		070F37312C8EEE9F00598929 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
 		070F37332C8EF0BA00598929 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		070F37352C8EF1DB00598929 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		070F37372C8EF55C00598929 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
 				070F37332C8EF0BA00598929 /* QuestionView.swift */,
+				070F37372C8EF55C00598929 /* PlayingView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				070F37362C8EF1DB00598929 /* ViewModel.swift in Sources */,
 				070F37342C8EF0BA00598929 /* QuestionView.swift in Sources */,
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
+				070F37382C8EF55C00598929 /* PlayingView.swift in Sources */,
 				070F37322C8EEE9F00598929 /* HowManyMultiplesQuestion.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
