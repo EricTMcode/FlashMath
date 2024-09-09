@@ -12,6 +12,7 @@
 		0709AAFD2C5CF71000690033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709AAFC2C5CF71000690033 /* Assets.xcassets */; };
 		0709AB002C5CF71000690033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709AAFF2C5CF71000690033 /* Preview Assets.xcassets */; };
 		070F37322C8EEE9F00598929 /* HowManyMultiplesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37312C8EEE9F00598929 /* HowManyMultiplesQuestion.swift */; };
+		070F37342C8EF0BA00598929 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37332C8EF0BA00598929 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0709AAFC2C5CF71000690033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0709AAFF2C5CF71000690033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		070F37312C8EEE9F00598929 /* HowManyMultiplesQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyMultiplesQuestion.swift; sourceTree = "<group>"; };
+		070F37332C8EF0BA00598929 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
+				070F37332C8EF0BA00598929 /* QuestionView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070F37342C8EF0BA00598929 /* QuestionView.swift in Sources */,
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
 				070F37322C8EEE9F00598929 /* HowManyMultiplesQuestion.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
