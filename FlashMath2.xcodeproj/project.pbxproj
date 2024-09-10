@@ -17,6 +17,7 @@
 		070F37382C8EF55C00598929 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37372C8EF55C00598929 /* PlayingView.swift */; };
 		070F373A2C8EF66E00598929 /* QuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37392C8EF66E00598929 /* QuestionButton.swift */; };
 		070F373C2C90464F00598929 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F373B2C90464F00598929 /* MenuView.swift */; };
+		070F373E2C9046EF00598929 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F373D2C9046EF00598929 /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		070F37372C8EF55C00598929 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		070F37392C8EF66E00598929 /* QuestionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButton.swift; sourceTree = "<group>"; };
 		070F373B2C90464F00598929 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		070F373D2C9046EF00598929 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
 				070F37332C8EF0BA00598929 /* QuestionView.swift */,
 				070F373B2C90464F00598929 /* MenuView.swift */,
+				070F373D2C9046EF00598929 /* GameOverView.swift */,
 				070F37372C8EF55C00598929 /* PlayingView.swift */,
 			);
 			path = Screens;
@@ -194,6 +197,7 @@
 				070F37382C8EF55C00598929 /* PlayingView.swift in Sources */,
 				070F373A2C8EF66E00598929 /* QuestionButton.swift in Sources */,
 				070F37322C8EEE9F00598929 /* HowManyMultiplesQuestion.swift in Sources */,
+				070F373E2C9046EF00598929 /* GameOverView.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
