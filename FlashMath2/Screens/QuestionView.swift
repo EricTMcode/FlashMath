@@ -11,6 +11,14 @@ struct QuestionView: View {
     @Environment(ViewModel.self) var viewModel
     let colors: [Color] = [.purple, .blue, .green, .pink, .orange].shuffled()
 
+    let timer = Timer.publish(every: 1 / 30, on: .main, in: .common).autoconnect()
+
+    @State private var timeUsed = 0.0
+
+    var timeRemaining: Double {
+        max(0, viewModel.timeAllowed - timeUsed)
+    }
+
     var body: some View {
         VStack {
             Spacer()
@@ -34,12 +42,25 @@ struct QuestionView: View {
 
             Spacer()
             Spacer()
+
+            Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
+                .font(.largeTitle)
+                .monospacedDigit()
         }
         .padding(.horizontal)
+        .onReceive(timer) { time in
+            timeUsed += 1 / 30
+
+            if timeUsed >= viewModel.timeAllowed {
+
+            }
+        }
         .transition(.push(from: .trailing))
     }
 
     func select(_ number: Int) {
+        timer.upstream.connect().cancel()
+
         withAnimation {
             viewModel.check(answer: number)
         }
