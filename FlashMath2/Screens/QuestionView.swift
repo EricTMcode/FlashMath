@@ -43,9 +43,19 @@ struct QuestionView: View {
             Spacer()
             Spacer()
 
-            Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
-                .font(.largeTitle)
-                .monospacedDigit()
+            ZStack {
+                Capsule()
+                    .fill(.white.gradient)
+                    .frame(height: 50)
+                    .containerRelativeFrame(.horizontal) { value, axis in
+                        value * timeRemaining / viewModel.timeAllowed
+                    }
+
+                Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
+                    .font(.largeTitle)
+                    .monospacedDigit()
+                    .blendMode(.difference)
+            }
         }
         .padding(.horizontal)
         .onReceive(timer) { time in
