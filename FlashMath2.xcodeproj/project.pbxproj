@@ -20,6 +20,7 @@
 		070F373E2C9046EF00598929 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F373D2C9046EF00598929 /* GameOverView.swift */; };
 		070F37402C91532800598929 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F373F2C91532800598929 /* MultipleQuestion.swift */; };
 		070F37422C91547100598929 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37412C91547100598929 /* Question.swift */; };
+		070F37442C91560D00598929 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37432C91560D00598929 /* HighestLowestQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		070F373D2C9046EF00598929 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		070F373F2C91532800598929 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
 		070F37412C91547100598929 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		070F37432C91560D00598929 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				070F37312C8EEE9F00598929 /* HowManyMultiplesQuestion.swift */,
 				070F373F2C91532800598929 /* MultipleQuestion.swift */,
 				070F37412C91547100598929 /* Question.swift */,
+				070F37432C91560D00598929 /* HighestLowestQuestion.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				070F373A2C8EF66E00598929 /* Styles.swift in Sources */,
 				070F37322C8EEE9F00598929 /* HowManyMultiplesQuestion.swift in Sources */,
 				070F37402C91532800598929 /* MultipleQuestion.swift in Sources */,
+				070F37442C91560D00598929 /* HighestLowestQuestion.swift in Sources */,
 				070F373E2C9046EF00598929 /* GameOverView.swift in Sources */,
 				070F37422C91547100598929 /* Question.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
