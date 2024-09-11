@@ -21,6 +21,7 @@
 		070F37402C91532800598929 /* MultipleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F373F2C91532800598929 /* MultipleQuestion.swift */; };
 		070F37422C91547100598929 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37412C91547100598929 /* Question.swift */; };
 		070F37442C91560D00598929 /* HighestLowestQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37432C91560D00598929 /* HighestLowestQuestion.swift */; };
+		070F37462C91574500598929 /* OperationQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F37452C91574500598929 /* OperationQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		070F373F2C91532800598929 /* MultipleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleQuestion.swift; sourceTree = "<group>"; };
 		070F37412C91547100598929 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		070F37432C91560D00598929 /* HighestLowestQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestLowestQuestion.swift; sourceTree = "<group>"; };
+		070F37452C91574500598929 /* OperationQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +107,11 @@
 		0709AB3A2C65D22500690033 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				070F37412C91547100598929 /* Question.swift */,
 				070F37312C8EEE9F00598929 /* HowManyMultiplesQuestion.swift */,
 				070F373F2C91532800598929 /* MultipleQuestion.swift */,
-				070F37412C91547100598929 /* Question.swift */,
 				070F37432C91560D00598929 /* HighestLowestQuestion.swift */,
+				070F37452C91574500598929 /* OperationQuestion.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				070F37402C91532800598929 /* MultipleQuestion.swift in Sources */,
 				070F37442C91560D00598929 /* HighestLowestQuestion.swift in Sources */,
 				070F373E2C9046EF00598929 /* GameOverView.swift in Sources */,
+				070F37462C91574500598929 /* OperationQuestion.swift in Sources */,
 				070F37422C91547100598929 /* Question.swift in Sources */,
 				0709AAF92C5CF70F00690033 /* FlashMath2App.swift in Sources */,
 			);
