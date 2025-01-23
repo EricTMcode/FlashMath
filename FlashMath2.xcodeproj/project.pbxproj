@@ -53,7 +53,6 @@
 			children = (
 				0709AAF82C5CF70F00690033 /* FlashMath2App.swift */,
 				0709AAFA2C5CF70F00690033 /* ContentView.swift */,
-				0709AB392C65D21B00690033 /* Screens */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
 				0709AAFE2C5CF71000690033 /* Preview Content */,
 			);
@@ -66,13 +65,6 @@
 				0709AAFF2C5CF71000690033 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0709AB392C65D21B00690033 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
