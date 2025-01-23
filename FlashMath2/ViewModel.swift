@@ -38,7 +38,7 @@ class ViewModel {
         if answer == question.correctAnswer {
             nextQuestion()
         } else {
-            // game over
+            gameOver()
         }
     }
 
