@@ -8,9 +8,14 @@
 import Foundation
 
 @Observable
+@dynamicMemberLookup
 class ViewModel {
     var questionNumber = 0
     var question: HowManyMultiplesQuestion!
+
+    subscript<Value>(dynamicMember keyPath: KeyPath<HowManyMultiplesQuestion, Value>) -> Value {
+        question[keyPath: keyPath]
+    }
 
     init() {
         nextQuestion()
