@@ -14,6 +14,7 @@
 		075842FF2D4278AC00D97EFB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075842FE2D4278AC00D97EFB /* QuestionView.swift */; };
 		075843012D42794500D97EFB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075843002D42794500D97EFB /* ViewModel.swift */; };
 		075843032D427C6400D97EFB /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075843022D427C6400D97EFB /* PlayingView.swift */; };
+		075843052D427D2A00D97EFB /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075843042D427D2A00D97EFB /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		075842FE2D4278AC00D97EFB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		075843002D42794500D97EFB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		075843022D427C6400D97EFB /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		075843042D427D2A00D97EFB /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -66,6 +68,7 @@
 				075842FE2D4278AC00D97EFB /* QuestionView.swift */,
 				075843002D42794500D97EFB /* ViewModel.swift */,
 				075843022D427C6400D97EFB /* PlayingView.swift */,
+				075843042D427D2A00D97EFB /* Styles.swift */,
 				075842FD2D42778E00D97EFB /* Models */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
 				0709AAFE2C5CF71000690033 /* Preview Content */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				075843012D42794500D97EFB /* ViewModel.swift in Sources */,
+				075843052D427D2A00D97EFB /* Styles.swift in Sources */,
 				075842FF2D4278AC00D97EFB /* QuestionView.swift in Sources */,
 				0709AAFB2C5CF70F00690033 /* ContentView.swift in Sources */,
 				075843032D427C6400D97EFB /* PlayingView.swift in Sources */,
