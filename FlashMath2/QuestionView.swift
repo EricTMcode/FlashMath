@@ -10,6 +10,8 @@ import SwiftUI
 struct QuestionView: View {
     @Environment(ViewModel.self) var viewModel
 
+    let colors: [Color] = [.purple, .blue, .green, .pink, .orange].shuffled()
+
     var body: some View {
         VStack {
             Spacer()
@@ -28,12 +30,14 @@ struct QuestionView: View {
                 } label: {
                     Text(viewModel.allAnswers[i].formatted())
                 }
+                .buttonStyle(.question(color: colors[i]))
             }
 
             Spacer()
             Spacer()
         }
         .padding(.horizontal)
+        .transition(.push(from: .trailing))
     }
 
     func select(_ number: Int) {
