@@ -33,4 +33,8 @@ class ViewModel {
             // game over
         }
     }
+
+    func end() {
+        // end the game
+    }
 }
