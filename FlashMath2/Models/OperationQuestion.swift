@@ -36,8 +36,8 @@ struct OperationQuestion: Question {
             operation = (-)
 
         case 3:
-            firstNumber = Int.random(in: 2...20)
-            secondNumber = Int.random(in: 2...20)
+            firstNumber = Int.random(in: 2...12)
+            secondNumber = Int.random(in: 2...12)
             correctAnswer = firstNumber * secondNumber
             questionText = "\(firstNumber) × \(secondNumber)?"
             operation = (*)
