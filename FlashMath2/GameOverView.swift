@@ -13,8 +13,11 @@ struct GameOverView: View {
     var body: some View {
         VStack {
             Text("Game over!")
+                .titleStyle()
             Text("Yous scored: \(viewModel.questionNumber - 1).")
+                .subtitleStyle()
             Button("Play Again", action: viewModel.end)
+                .buttonStyle(.primary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .backgroundGradient()
