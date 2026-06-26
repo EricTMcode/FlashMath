@@ -16,13 +16,17 @@ struct PlayingView: View {
                 Spacer()
 
                 Button("End Game", systemImage: "xmark.circle", action: viewModel.end)
+                    .foregroundStyle(.white)
                     .labelStyle(.iconOnly)
                     .font(.largeTitle)
             }
             .padding(.horizontal)
+            .transition(.push(from: .trailing))
 
             QuestionView()
+                .id(viewModel.questionNumber)
         }
+        .backgroundGradient()
     }
 }
 
