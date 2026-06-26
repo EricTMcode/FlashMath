@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuestionView: View {
-    var question = HowManyMultipesQuestion()
+    @Environment(ViewModel.self) var viewModel
 
     var body: some View {
         VStack {
@@ -39,4 +39,5 @@ struct QuestionView: View {
 
 #Preview {
     QuestionView()
+        .environment(ViewModel())
 }
