@@ -22,6 +22,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		075843122D47D3A500D97EFB /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
 		07EFACE12FEEACAD007D5EB4 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		07EFACE62FEEAF39007D5EB4 /* ViewModel */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModel; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				0709AAF82C5CF70F00690033 /* FlashMath2App.swift */,
 				07EFACE12FEEACAD007D5EB4 /* Models */,
+				07EFACE62FEEAF39007D5EB4 /* ViewModel */,
 				075843122D47D3A500D97EFB /* Views */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
 				0709AAFE2C5CF71000690033 /* Preview Content */,
@@ -89,6 +91,7 @@
 			fileSystemSynchronizedGroups = (
 				075843122D47D3A500D97EFB /* Views */,
 				07EFACE12FEEACAD007D5EB4 /* Models */,
+				07EFACE62FEEAF39007D5EB4 /* ViewModel */,
 			);
 			name = FlashMath2;
 			productName = FlashMath2;
