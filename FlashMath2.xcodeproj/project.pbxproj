@@ -20,9 +20,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		075842FD2D42778E00D97EFB /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
 		075843122D47D3A500D97EFB /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
-		075843132D47D3BD00D97EFB /* Helpers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Helpers; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +55,6 @@
 			children = (
 				0709AAF82C5CF70F00690033 /* FlashMath2App.swift */,
 				075843122D47D3A500D97EFB /* Views */,
-				075843132D47D3BD00D97EFB /* Helpers */,
-				075842FD2D42778E00D97EFB /* Models */,
 				0709AAFC2C5CF71000690033 /* Assets.xcassets */,
 				0709AAFE2C5CF71000690033 /* Preview Content */,
 			);
@@ -89,9 +85,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				075842FD2D42778E00D97EFB /* Models */,
 				075843122D47D3A500D97EFB /* Views */,
-				075843132D47D3BD00D97EFB /* Helpers */,
 			);
 			name = FlashMath2;
 			productName = FlashMath2;
