@@ -21,7 +21,6 @@ struct PlayingView: View {
                     .font(.largeTitle)
             }
             .padding(.horizontal)
-            .transition(.push(from: .trailing))
 
             QuestionView()
                 .id(viewModel.questionNumber)
