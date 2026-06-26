@@ -14,19 +14,19 @@ struct QuestionView: View {
         VStack {
             Spacer()
 
-            Text("Question 1")
+            Text("Question \(viewModel.questionNumber)")
                 .fontDesign(.rounded)
                 .fontWeight(.black)
 
-            Text(question.questionText)
+            Text(viewModel.questionText)
                 .multilineTextAlignment(.center)
                 .font(.largeTitle)
 
-            ForEach(0..<question.allAnswers.count, id: \.self) { i in
+            ForEach(0..<viewModel.allAnswers.count, id: \.self) { i in
                 Button {
 
                 } label: {
-                    Text(question.allAnswers[i].formatted())
+                    Text(viewModel.allAnswers[i].formatted())
                 }
             }
 
