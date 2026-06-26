@@ -24,7 +24,7 @@ struct QuestionView: View {
 
             ForEach(0..<viewModel.allAnswers.count, id: \.self) { i in
                 Button {
-
+                    select(viewModel.allAnswers[i])
                 } label: {
                     Text(viewModel.allAnswers[i].formatted())
                 }
@@ -34,6 +34,12 @@ struct QuestionView: View {
             Spacer()
         }
         .padding(.horizontal)
+    }
+
+    func select(_ number: Int) {
+        withAnimation {
+            viewModel.check(answer: number)
+        }
     }
 }
 
