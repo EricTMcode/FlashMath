@@ -21,7 +21,8 @@ class ViewModel {
 
     let allQuestions: [any Question.Type] = [
         MultipleQuestion.self,
-        HowManyMultipesQuestion.self
+        HowManyMultipesQuestion.self,
+        HighestLowestQuestion.self
     ]
 
     subscript<Value>(dynamicMember keyPath: KeyPath<Question, Value>) -> Value {
