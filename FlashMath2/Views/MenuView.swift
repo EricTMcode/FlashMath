@@ -14,6 +14,10 @@ struct MenuView: View {
         VStack {
             Spacer()
 
+            Image(.logo)
+                .clipShape(.rect(cornerRadius: 20))
+                .padding(.bottom, 40)
+
             Text("FLASH MATH")
                 .titleStyle()
             Text("Last Score: \(lastScore)")
