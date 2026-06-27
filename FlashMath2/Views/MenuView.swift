@@ -15,8 +15,11 @@ struct MenuView: View {
             Spacer()
 
             Text("FLASH MATH")
+                .titleStyle()
             Text("Last Score: \(lastScore)")
+                .subtitleStyle()
             Button("New Game", action: viewModel.start)
+                .buttonStyle(.primary)
 
             Spacer()
             Spacer()
