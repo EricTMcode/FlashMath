@@ -62,3 +62,9 @@ struct PrimaryButton: ButtonStyle {
             .clipShape(Capsule())
     }
 }
+
+extension ButtonStyle where Self == PrimaryButton {
+    static var primary: PrimaryButton {
+        PrimaryButton()
+    }
+}
