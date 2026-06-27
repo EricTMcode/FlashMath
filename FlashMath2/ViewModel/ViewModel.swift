@@ -16,10 +16,15 @@ class ViewModel {
 
     private(set) var playState = PlayState.menu
     var questionNumber = 0
-    var question: HowManyMultipesQuestion!
+    var question: (any Question)!
     var timeAllowed = 10.0
 
-    subscript<Value>(dynamicMember keyPath: KeyPath<HowManyMultipesQuestion, Value>) -> Value {
+    let allQuestions: [any Question.Type] = [
+        MultipleQuestion.self,
+        HowManyMultipesQuestion.self
+    ]
+
+    subscript<Value>(dynamicMember keyPath: KeyPath<Question, Value>) -> Value {
         question[keyPath: keyPath]
     }
 
@@ -28,7 +33,7 @@ class ViewModel {
     }
 
     func nextQuestion() {
-        question = HowManyMultipesQuestion()
+        question = allQuestions.randomElement()!.init()
         questionNumber += 1
         timeAllowed *= 0.99
     }
