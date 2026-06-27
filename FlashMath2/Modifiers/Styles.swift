@@ -12,6 +12,14 @@ extension View {
         self
             .background(LinearGradient(colors: [.indigo, .black], startPoint: .top, endPoint: .bottom))
     }
+
+    func titleStyle() -> some View {
+        self
+            .font(.system(size: 48))
+            .fontWidth(.condensed)
+            .fontWeight(.black)
+            .multilineTextAlignment(.center)
+    }
 }
 
 struct QuestionButton: ButtonStyle {
