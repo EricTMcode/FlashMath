@@ -20,6 +20,13 @@ extension View {
             .fontWeight(.black)
             .multilineTextAlignment(.center)
     }
+
+    func subtitleStyle() -> some View {
+        self
+            .font(.title.bold())
+            .padding(.bottom, 40)
+            .foregroundStyle(.secondary)
+    }
 }
 
 struct QuestionButton: ButtonStyle {
