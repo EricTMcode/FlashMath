@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HowManyMultipesQuestion {
+struct HowManyMultipesQuestion: Question {
     var questionText: String
     var correctAnswer: Int
     var allAnswers: [Int]
