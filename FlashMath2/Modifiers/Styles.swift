@@ -50,3 +50,15 @@ extension ButtonStyle where Self == QuestionButton {
         QuestionButton(color: color)
     }
 }
+
+struct PrimaryButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(.title.bold())
+            .foregroundStyle(configuration.isPressed ? .white : .blue)
+            .padding(10)
+            .padding(.horizontal, 10)
+            .background(configuration.isPressed ? .blue : .white)
+            .clipShape(Capsule())
+    }
+}
